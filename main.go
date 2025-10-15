@@ -19,7 +19,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	case "/about":
 		tmpl.ExecuteTemplate(w, "about.html", map[string]string{
 			"Title": "About Page",
-			"Body":  "This is a simple website built with Go!",
+			"Body":  "Main brach!",
 		})
 	default:
 		http.NotFound(w, r)
