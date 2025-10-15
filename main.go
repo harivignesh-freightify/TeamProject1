@@ -14,7 +14,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	case "/":
 		tmpl.ExecuteTemplate(w, "index.html", map[string]string{
 			"Title": "Home Page",
-			"Body":  "Welcome to my first Go website 🚀",
+			"Body":  "Welcome to Abhinav Vidu ne vita vittu oodu",
 		})
 	case "/about":
 		tmpl.ExecuteTemplate(w, "about.html", map[string]string{
